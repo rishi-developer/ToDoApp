@@ -1,10 +1,10 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from 'react-native-screens/native-stack';
-import Login from './src/screens/Login';
-import TaskListScreen from './src/screens/TaskListScreen';
-import AddTaskScreen from './src/screens/AddTaskScreen';
-import EditTaskScreen from './src/screens/EditTaskScreen';
+import Login from './screens/Login';
+import TaskListScreen from './screens/TaskListScreen';
+import AddTaskScreen from './screens/AddTaskScreen';
+import EditTaskScreen from './screens/EditTaskScreen';
 
 const Stack = createNativeStackNavigator();
 
